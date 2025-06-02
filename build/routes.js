@@ -45187,8 +45187,7 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/gq/news",
@@ -98942,7 +98941,8 @@ export default {
       "/app/:category?": {
         "path": "/app/:category?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/theinitium/app",
         "parameters": {
